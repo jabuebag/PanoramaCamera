@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var showImage: UIImageView!
+    
+    var imageProcessUtil = ImageProcessUtil()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let image = UIImage(named: "haha.jpg")
+        showImage.image = imageProcessUtil.projectImage(image!)
     }
 
     override func didReceiveMemoryWarning() {
