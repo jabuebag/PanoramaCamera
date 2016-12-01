@@ -24,12 +24,26 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yN6-tu-j9H">
                                 <rect key="frame" x="0.0" y="94" width="375" height="206"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3l-9Z-0Vn">
+                                <rect key="frame" x="143" y="405" width="88" height="30"/>
+                                <color key="backgroundColor" red="0.7076586787564767" green="0.7076586787564767" blue="0.7076586787564767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9Xf-mN-UUT"/>
+                                    <constraint firstAttribute="width" constant="88" id="Ngw-pL-Qi6"/>
+                                </constraints>
+                                <state key="normal" title="start"/>
+                                <connections>
+                                    <action selector="startCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UEZ-Pv-8DK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yN6-tu-j9H" secondAttribute="bottom" constant="367" id="5h0-CC-yCO"/>
+                            <constraint firstItem="t3l-9Z-0Vn" firstAttribute="top" secondItem="yN6-tu-j9H" secondAttribute="bottom" constant="105" id="JI6-ah-eqE"/>
                             <constraint firstItem="yN6-tu-j9H" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="P7b-MX-SmI"/>
                             <constraint firstItem="yN6-tu-j9H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WmZ-aJ-eP1"/>
+                            <constraint firstItem="t3l-9Z-0Vn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b6u-bw-xlJ"/>
                             <constraint firstAttribute="trailing" secondItem="yN6-tu-j9H" secondAttribute="trailing" id="pbl-o2-ZxT"/>
                         </constraints>
                     </view>

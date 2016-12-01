@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016D1DC3963BF2066027DDE2F1E0D12F /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B91595068BE4D1EBDD3BD0FFF2463E5D /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1775C66437E230AF07E45C3C0AC9F6BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B8AEC8CB912763B7515A835AA78E6D /* UIKit.framework */; };
+		2A477AC31B1CBAAA0176DCA4AA916AB6 /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0380FF906B979D69616ADFEE91DA6287 /* DKCameraResource.bundle */; };
+		4E515C28845D217E03EAE0040293DFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */; };
+		57F4A8099AEB98A58E3B45142E9AACD1 /* Pods-PanoramaCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244B72E758C7DE761E109D7245EA663 /* Pods-PanoramaCamera-dummy.m */; };
+		5CF0DB7F08BF562E68566E815D8F6D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */; };
+		739571A91BD555AE65C8952664431835 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7E6535D26A7EB3B637535CBBBB6AE5 /* CoreMotion.framework */; };
+		986FB80C0DFB8B2219839416A03A6F30 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1FC0A242FA2556FE2AFA3C6D061420 /* DKCamera.swift */; };
+		A952F53B5558BE5AB9825311D7057C6D /* Pods-PanoramaCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C5A7FCFE21B2C780D3F165FF648603 /* Pods-PanoramaCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D737BED00522158D12E57180CCA79BDA /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529C37B5F208BF1F1978972DBF18B73 /* DKCamera-dummy.m */; };
+		DC61BFC8D98EEB7D290E3D33FD2ACB97 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02C787CDCA3AFCACE35FB18052AD14D /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B0D9DB1F633B960AE2E0D52478DC147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714E315BB23E95FEA43B6E772702966E;
+			remoteInfo = DKCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029D59590C893362CC1DE9506F23F123 /* Pods-PanoramaCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PanoramaCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		0380FF906B979D69616ADFEE91DA6287 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+		0400B142105362D684D760D377C53E14 /* Pods-PanoramaCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PanoramaCamera-resources.sh"; sourceTree = "<group>"; };
+		1A5F8D607642A833B748E816E2DD817D /* Pods-PanoramaCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PanoramaCamera.modulemap"; sourceTree = "<group>"; };
+		2BE211E7E59798F2125A178080AA1906 /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
+		4244B72E758C7DE761E109D7245EA663 /* Pods-PanoramaCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PanoramaCamera-dummy.m"; sourceTree = "<group>"; };
+		48C5A7FCFE21B2C780D3F165FF648603 /* Pods-PanoramaCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PanoramaCamera-umbrella.h"; sourceTree = "<group>"; };
+		4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
+		4C02E24B2CEDE62F4177804B75B200B0 /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DKCamera.modulemap; sourceTree = "<group>"; };
+		6435181427341D86BE879FBF3D3273D9 /* Pods-PanoramaCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PanoramaCamera-frameworks.sh"; sourceTree = "<group>"; };
+		6C1FC0A242FA2556FE2AFA3C6D061420 /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		74B8AEC8CB912763B7515A835AA78E6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7529C37B5F208BF1F1978972DBF18B73 /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
+		83362C6C6E15D37473C190BFBD16AC0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835F26963E9EDC70C59BDB61A79556F7 /* Pods_PanoramaCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PanoramaCamera.framework; path = "Pods-PanoramaCamera.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA943BC7D6BD0B8AD1570656551323B /* Pods-PanoramaCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PanoramaCamera.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA7E6535D26A7EB3B637535CBBBB6AE5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		B91595068BE4D1EBDD3BD0FFF2463E5D /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
+		CE549E1020134F2D9BCDC815E1AA0F78 /* Pods-PanoramaCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PanoramaCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		E02C787CDCA3AFCACE35FB18052AD14D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		E19D5E122FF5EF6BD7DFE2D02E458004 /* Pods-PanoramaCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PanoramaCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F52173E656F6FA8EE9ED9EC19D9A68AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EFFE5749FF4E182630B7C51AB36216 /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKCamera.framework; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1748C9DF7D62D1537401DA3EA705CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E515C28845D217E03EAE0040293DFC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C262B0AC4D1FEE1BB1960CAD26FA401E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC61BFC8D98EEB7D290E3D33FD2ACB97 /* AVFoundation.framework in Frameworks */,
+				739571A91BD555AE65C8952664431835 /* CoreMotion.framework in Frameworks */,
+				5CF0DB7F08BF562E68566E815D8F6D3E /* Foundation.framework in Frameworks */,
+				1775C66437E230AF07E45C3C0AC9F6BE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015C9887DBEC828AC2CABFDAA2036056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EFFE5749FF4E182630B7C51AB36216 /* DKCamera.framework */,
+				835F26963E9EDC70C59BDB61A79556F7 /* Pods_PanoramaCamera.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457E36E5C8DD5360E1A3C7BEFBC01882 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		457E36E5C8DD5360E1A3C7BEFBC01882 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E02C787CDCA3AFCACE35FB18052AD14D /* AVFoundation.framework */,
+				AA7E6535D26A7EB3B637535CBBBB6AE5 /* CoreMotion.framework */,
+				E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */,
+				74B8AEC8CB912763B7515A835AA78E6D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				BF6DC84BF9D842790701E5776E1E87D6 /* Pods */,
+				015C9887DBEC828AC2CABFDAA2036056 /* Products */,
+				F31D18ADA8D6BDA91020F02304C147F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92AB57B15CF74033C95691976AC24198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0380FF906B979D69616ADFEE91DA6287 /* DKCameraResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BEB6E83873415302CEA374CD169FE16A /* Pods-PanoramaCamera */ = {
+			isa = PBXGroup;
+			children = (
+				83362C6C6E15D37473C190BFBD16AC0E /* Info.plist */,
+				1A5F8D607642A833B748E816E2DD817D /* Pods-PanoramaCamera.modulemap */,
+				E19D5E122FF5EF6BD7DFE2D02E458004 /* Pods-PanoramaCamera-acknowledgements.markdown */,
+				029D59590C893362CC1DE9506F23F123 /* Pods-PanoramaCamera-acknowledgements.plist */,
+				4244B72E758C7DE761E109D7245EA663 /* Pods-PanoramaCamera-dummy.m */,
+				6435181427341D86BE879FBF3D3273D9 /* Pods-PanoramaCamera-frameworks.sh */,
+				0400B142105362D684D760D377C53E14 /* Pods-PanoramaCamera-resources.sh */,
+				48C5A7FCFE21B2C780D3F165FF648603 /* Pods-PanoramaCamera-umbrella.h */,
+				CE549E1020134F2D9BCDC815E1AA0F78 /* Pods-PanoramaCamera.debug.xcconfig */,
+				8AA943BC7D6BD0B8AD1570656551323B /* Pods-PanoramaCamera.release.xcconfig */,
+			);
+			name = "Pods-PanoramaCamera";
+			path = "Target Support Files/Pods-PanoramaCamera";
+			sourceTree = "<group>";
+		};
+		BF6DC84BF9D842790701E5776E1E87D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE626BE4F82EB557801CF35930ADB70A /* DKCamera */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE626BE4F82EB557801CF35930ADB70A /* DKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				6C1FC0A242FA2556FE2AFA3C6D061420 /* DKCamera.swift */,
+				92AB57B15CF74033C95691976AC24198 /* Resources */,
+				EE0E8406F45FEC3AEE3ED52A79FCC00C /* Support Files */,
+			);
+			name = DKCamera;
+			path = DKCamera;
+			sourceTree = "<group>";
+		};
+		EE0E8406F45FEC3AEE3ED52A79FCC00C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C02E24B2CEDE62F4177804B75B200B0 /* DKCamera.modulemap */,
+				4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */,
+				7529C37B5F208BF1F1978972DBF18B73 /* DKCamera-dummy.m */,
+				2BE211E7E59798F2125A178080AA1906 /* DKCamera-prefix.pch */,
+				B91595068BE4D1EBDD3BD0FFF2463E5D /* DKCamera-umbrella.h */,
+				F52173E656F6FA8EE9ED9EC19D9A68AB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DKCamera";
+			sourceTree = "<group>";
+		};
+		F31D18ADA8D6BDA91020F02304C147F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6E83873415302CEA374CD169FE16A /* Pods-PanoramaCamera */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C159A8FFBC20E64E8D1E831DE46B617C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016D1DC3963BF2066027DDE2F1E0D12F /* DKCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D275296C0D34428D17410788E68571F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A952F53B5558BE5AB9825311D7057C6D /* Pods-PanoramaCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		714E315BB23E95FEA43B6E772702966E /* DKCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4888AAC7F614A939B9019EAED2900 /* Build configuration list for PBXNativeTarget "DKCamera" */;
+			buildPhases = (
+				3377CEA9209FBB2AFD9F94271944291F /* Sources */,
+				C262B0AC4D1FEE1BB1960CAD26FA401E /* Frameworks */,
+				18526B1D674D4A5E7883143EBACCECF9 /* Resources */,
+				C159A8FFBC20E64E8D1E831DE46B617C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKCamera;
+			productName = DKCamera;
+			productReference = F6EFFE5749FF4E182630B7C51AB36216 /* DKCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FE71B1B7CF46E23FA52CD7C02FAB88A /* Pods-PanoramaCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27E94E9136A8D495629EA0C1675DD76 /* Build configuration list for PBXNativeTarget "Pods-PanoramaCamera" */;
+			buildPhases = (
+				CCB42D0F498572AD097DB792ED4E1DCC /* Sources */,
+				1748C9DF7D62D1537401DA3EA705CD5B /* Frameworks */,
+				D275296C0D34428D17410788E68571F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9350C073456F7F5B22B934FFEB3E5D37 /* PBXTargetDependency */,
+			);
+			name = "Pods-PanoramaCamera";
+			productName = "Pods-PanoramaCamera";
+			productReference = 835F26963E9EDC70C59BDB61A79556F7 /* Pods_PanoramaCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 015C9887DBEC828AC2CABFDAA2036056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714E315BB23E95FEA43B6E772702966E /* DKCamera */,
+				7FE71B1B7CF46E23FA52CD7C02FAB88A /* Pods-PanoramaCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18526B1D674D4A5E7883143EBACCECF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A477AC31B1CBAAA0176DCA4AA916AB6 /* DKCameraResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3377CEA9209FBB2AFD9F94271944291F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D737BED00522158D12E57180CCA79BDA /* DKCamera-dummy.m in Sources */,
+				986FB80C0DFB8B2219839416A03A6F30 /* DKCamera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB42D0F498572AD097DB792ED4E1DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F4A8099AEB98A58E3B45142E9AACD1 /* Pods-PanoramaCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9350C073456F7F5B22B934FFEB3E5D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKCamera;
+			target = 714E315BB23E95FEA43B6E772702966E /* DKCamera */;
+			targetProxy = 8B0D9DB1F633B960AE2E0D52478DC147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0A5C8593BD8042570CEC9A14667847C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C5BA6E81898435F257D69B25AB529D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE549E1020134F2D9BCDC815E1AA0F78 /* Pods-PanoramaCamera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PanoramaCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PanoramaCamera/Pods-PanoramaCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PanoramaCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1516AA2C1591190564B67E3C5002978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD8B7BA2A25625EC6CE2BB899F1BF4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA943BC7D6BD0B8AD1570656551323B /* Pods-PanoramaCamera.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PanoramaCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PanoramaCamera/Pods-PanoramaCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PanoramaCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D4888AAC7F614A939B9019EAED2900 /* Build configuration list for PBXNativeTarget "DKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5C8593BD8042570CEC9A14667847C3 /* Debug */,
+				F1516AA2C1591190564B67E3C5002978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27E94E9136A8D495629EA0C1675DD76 /* Build configuration list for PBXNativeTarget "Pods-PanoramaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5BA6E81898435F257D69B25AB529D6 /* Debug */,
+				FD8B7BA2A25625EC6CE2BB899F1BF4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
