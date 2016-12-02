@@ -7,21 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		016D1DC3963BF2066027DDE2F1E0D12F /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B91595068BE4D1EBDD3BD0FFF2463E5D /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0086FBD1BAF1B277488DA9C31A206986 /* GalleryConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101226A961AE4FAF5689264F90C33828 /* GalleryConfiguration.swift */; };
+		016D1DC3963BF2066027DDE2F1E0D12F /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A320A9B7FA31B12A17EF860670DE008E /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F75E613C88377A55CA7083F1DD58F /* LayoutEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B9235D240921ABBD875629D0F1694 /* LayoutEnums.swift */; };
+		124CB0ABCF238B79A42747E61E1E2557 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455351527FEB7992077F66E27AAE182 /* BlurView.swift */; };
+		15ACA6A8CDEAA47F5F72F2036182AC11 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B70D2589816793947A6ED86ABCDEF /* UIView.swift */; };
 		1775C66437E230AF07E45C3C0AC9F6BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B8AEC8CB912763B7515A835AA78E6D /* UIKit.framework */; };
-		2A477AC31B1CBAAA0176DCA4AA916AB6 /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0380FF906B979D69616ADFEE91DA6287 /* DKCameraResource.bundle */; };
-		4E515C28845D217E03EAE0040293DFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */; };
-		57F4A8099AEB98A58E3B45142E9AACD1 /* Pods-PanoramaCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244B72E758C7DE761E109D7245EA663 /* Pods-PanoramaCamera-dummy.m */; };
+		23B752C758CD40BDFA11CB10BF9B60C6 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D07BD385F1EC8C3B6F33C750C5E68D /* UISlider.swift */; };
+		2A477AC31B1CBAAA0176DCA4AA916AB6 /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4630ACB2CA6E7B546F0ED5E5B10E4079 /* DKCameraResource.bundle */; };
+		345C02C9047B7C90E6C51212AB128BF7 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC227809AF65EA6476FFEDFA3E0FA51 /* AVPlayer.swift */; };
+		4AA64E984EA3FCB0A4D60796DF0EE746 /* ImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F2045F3B15BC0DB66F2A45D1040E9 /* ImageViewer-dummy.m */; };
+		500F18B33116DEA4420E939F687B936B /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7AAE16C23D5C823FC66FC6428F0FF /* ThumbnailCell.swift */; };
 		5CF0DB7F08BF562E68566E815D8F6D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */; };
+		5F5A95540353980BCCA15256BC43F9E7 /* GallerySwipeToDismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0B3AD91BCEDD4BEB068C49E29709C /* GallerySwipeToDismissTransition.swift */; };
+		5FEAC269DA6D03E1340EC71660D690F9 /* CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985737D836BF9913C386C56B7CFCD29 /* CAShapeLayer.swift */; };
+		657ACDA469BDB0B809E7CB2EF1D8E051 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0984F15FCFABEB3DF938559F25BC6F8B /* CGSize.swift */; };
 		739571A91BD555AE65C8952664431835 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7E6535D26A7EB3B637535CBBBB6AE5 /* CoreMotion.framework */; };
-		986FB80C0DFB8B2219839416A03A6F30 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1FC0A242FA2556FE2AFA3C6D061420 /* DKCamera.swift */; };
-		A952F53B5558BE5AB9825311D7057C6D /* Pods-PanoramaCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C5A7FCFE21B2C780D3F165FF648603 /* Pods-PanoramaCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D737BED00522158D12E57180CCA79BDA /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529C37B5F208BF1F1978972DBF18B73 /* DKCamera-dummy.m */; };
+		81B22D31DA262FFC55D43ACDFF284EDF /* GalleryPagingDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0370D851BB7629A3F3F22D5858B696 /* GalleryPagingDatasource.swift */; };
+		8291294B989EE943B68E4B44BE546065 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD95C0B1D93C9C7E5948D2371BFAE /* GalleryItem.swift */; };
+		86CCE8A84DFE63DF4A35242050F6547C /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876848523C2B149F8CF066DBD4B70B1C /* GalleryViewController.swift */; };
+		88853951EC5E1DF6F64CF5FA37B5D280 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC38A8D36C97ACFE8F06904C7D234A2 /* VideoViewController.swift */; };
+		88DCC2920F1323BD3D4F3F09272CC81A /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6961B951605EC4634162DCE060BF26 /* CGRect.swift */; };
+		8B6E5C99E4D9832095E8F30340E47650 /* Pods-PanoramaCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C5A7FCFE21B2C780D3F165FF648603 /* Pods-PanoramaCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2A71D385434CC1F55FCBBC36DEE66D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78581270220DB945A2B77EB4CA7189D /* ImageViewController.swift */; };
+		90AECDE9B998A05C27F2BB0CF2809206 /* VideoScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1057AB096D750CC426A6E9419D9584 /* VideoScrubber.swift */; };
+		9658966F37DB85BE31133517DEA7C2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */; };
+		986FB80C0DFB8B2219839416A03A6F30 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD547FC60E9AC12F56851B4663C05FE /* DKCamera.swift */; };
+		9CB4B36154E771665C0B780BA44A78B8 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F251B406F90019C3143D6A8454A99 /* VideoView.swift */; };
+		9D0FFB439DCBC540E272ECF1B385BA9D /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B02A3469831D9365A6A5D691690A459 /* CALayer.swift */; };
+		A29E2776BE40F24B8BF50FC1D7C0CD71 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CF9B9C53F84F7C91CF3CE917F4320F /* UIImageView.swift */; };
+		A3A3B93764C0C89A98CDA9B2AE69835A /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83320AF8E60917879244EF2B7D330129 /* CGPoint.swift */; };
+		A6D30F0232BCB4CF2DE6F6CA3DF72664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */; };
+		AC8D18100DD88ABFEB3CD9258D1ADC23 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09C7F198BB95F0740701595FA283A3A /* UIBezierPath.swift */; };
+		ACC69199EFB476D7FCF927F7FFB33138 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174BAC17305D61C278FAEC85718DA7D /* Slider.swift */; };
+		B3C608BDB545E340AE814181CC59763E /* ImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 838EC985768F562A64FF2036EB1B24F5 /* ImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51206262AAD0F55ACB5B0B4FA3D4E2C /* ThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE179C47039CC23E48D914EA92EB5E7B /* ThumbnailsViewController.swift */; };
+		C40B1C59082F0851B6A17CB0BBDC4F7C /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF733C36CBC4C8F6370C6BC1524CFD /* Bool.swift */; };
+		C9368751FB1E4E89FA4F4844B5C41C9B /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166F94B7D3A10983E6F410171A0BBBC2 /* ItemController.swift */; };
+		CBEE099F8D86DFAB6B27DC742420A7BE /* GalleryItemsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3CF13CC5F90720742CFF1478DC1BD /* GalleryItemsDatasource.swift */; };
+		CD4A3FD6C9DF922E269E1321E0E94E19 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80598EDD16AAA1C6897C9F10FAF1EC9 /* UIButton.swift */; };
+		D44FA49215F77AA36C4E0158F5A012F6 /* ItemBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A9DC91E40C46A90E63FD171AABC63B /* ItemBaseController.swift */; };
+		D71EE9D3C99BD3E677F85A0F0D3A67E2 /* GalleryDisplacedViewsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB0FE5FD56D91323BC103035B8B0B16 /* GalleryDisplacedViewsDatasource.swift */; };
+		D737BED00522158D12E57180CCA79BDA /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E88BB6C6F32BF87CEC9B5794ABFFF9 /* DKCamera-dummy.m */; };
 		DC61BFC8D98EEB7D290E3D33FD2ACB97 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02C787CDCA3AFCACE35FB18052AD14D /* AVFoundation.framework */; };
+		DEDE976189AF453FF25DF3A6C59F3F98 /* ItemControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C511FEA4455C7C135371829242A9E /* ItemControllerDelegate.swift */; };
+		DF2D4BBDE41DC40087778F99DF961933 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580E3629A516FE68AB6E102C9397A91A /* UtilityFunctions.swift */; };
+		DF3BBA579CE5D094073B401F4EF6F1D1 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF05CF9A0AD9BFEDBB36B40B1942CB /* UIApplication.swift */; };
+		DFDF3EE3B53433B7CF0D16D8A33A4661 /* ImageFadeInHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E891C363E998B86EFC728ADF34587 /* ImageFadeInHandler.swift */; };
+		F4FD741619ACFA1FD812D7E3B4B6B205 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C376E8F7CF32ABC13D81C0C42518F0 /* UIViewController.swift */; };
+		F8DABCF769B3432503404F625D826068 /* Pods-PanoramaCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4244B72E758C7DE761E109D7245EA663 /* Pods-PanoramaCamera-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B0D9DB1F633B960AE2E0D52478DC147 /* PBXContainerItemProxy */ = {
+		3D5B1524BDB308CCDF80A6E120644A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B321F3A57D08F1D51B82D56CADFEFBDF;
+			remoteInfo = ImageViewer;
+		};
+		C1D5310413C2077679C2A5CB1C2A1C0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -32,38 +77,80 @@
 
 /* Begin PBXFileReference section */
 		029D59590C893362CC1DE9506F23F123 /* Pods-PanoramaCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PanoramaCamera-acknowledgements.plist"; sourceTree = "<group>"; };
-		0380FF906B979D69616ADFEE91DA6287 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
 		0400B142105362D684D760D377C53E14 /* Pods-PanoramaCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PanoramaCamera-resources.sh"; sourceTree = "<group>"; };
+		0984F15FCFABEB3DF938559F25BC6F8B /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = ImageViewer/Source/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		101226A961AE4FAF5689264F90C33828 /* GalleryConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryConfiguration.swift; path = ImageViewer/Source/GalleryConfiguration.swift; sourceTree = "<group>"; };
+		10FE454E31A1587FB0B06767BB804AC2 /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKCamera.framework; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F94B7D3A10983E6F410171A0BBBC2 /* ItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemController.swift; path = ImageViewer/Source/ItemController.swift; sourceTree = "<group>"; };
 		1A5F8D607642A833B748E816E2DD817D /* Pods-PanoramaCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PanoramaCamera.modulemap"; sourceTree = "<group>"; };
-		2BE211E7E59798F2125A178080AA1906 /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
+		1F6961B951605EC4634162DCE060BF26 /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = ImageViewer/Source/Extensions/CGRect.swift; sourceTree = "<group>"; };
+		29C0B3AD91BCEDD4BEB068C49E29709C /* GallerySwipeToDismissTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GallerySwipeToDismissTransition.swift; path = ImageViewer/Source/GallerySwipeToDismissTransition.swift; sourceTree = "<group>"; };
+		2D1057AB096D750CC426A6E9419D9584 /* VideoScrubber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoScrubber.swift; path = ImageViewer/Source/VideoScrubber.swift; sourceTree = "<group>"; };
+		2DFF733C36CBC4C8F6370C6BC1524CFD /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = ImageViewer/Source/Extensions/Bool.swift; sourceTree = "<group>"; };
+		36D07BD385F1EC8C3B6F33C750C5E68D /* UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISlider.swift; path = ImageViewer/Source/Extensions/UISlider.swift; sourceTree = "<group>"; };
 		4244B72E758C7DE761E109D7245EA663 /* Pods-PanoramaCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PanoramaCamera-dummy.m"; sourceTree = "<group>"; };
+		461D3E19FDFF7AD97F4980B10A872912 /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DKCamera.modulemap; sourceTree = "<group>"; };
+		4630ACB2CA6E7B546F0ED5E5B10E4079 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
 		48C5A7FCFE21B2C780D3F165FF648603 /* Pods-PanoramaCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PanoramaCamera-umbrella.h"; sourceTree = "<group>"; };
-		4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
-		4C02E24B2CEDE62F4177804B75B200B0 /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DKCamera.modulemap; sourceTree = "<group>"; };
+		4DD547FC60E9AC12F56851B4663C05FE /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		51E645EE38A86FBE98FDC7AE6FFC6557 /* Pods_PanoramaCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PanoramaCamera.framework; path = "Pods-PanoramaCamera.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580E3629A516FE68AB6E102C9397A91A /* UtilityFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UtilityFunctions.swift; path = ImageViewer/Source/UtilityFunctions.swift; sourceTree = "<group>"; };
+		627847A5D5E534A14E71129BF8A4CAC7 /* ImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageViewer.framework; path = ImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6435181427341D86BE879FBF3D3273D9 /* Pods-PanoramaCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PanoramaCamera-frameworks.sh"; sourceTree = "<group>"; };
-		6C1FC0A242FA2556FE2AFA3C6D061420 /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		64B3CF13CC5F90720742CFF1478DC1BD /* GalleryItemsDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryItemsDatasource.swift; path = ImageViewer/Source/GalleryItemsDatasource.swift; sourceTree = "<group>"; };
+		6530A942B43DF4E404CC2272387E3E5C /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
+		6B02A3469831D9365A6A5D691690A459 /* CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayer.swift; path = ImageViewer/Source/Extensions/CALayer.swift; sourceTree = "<group>"; };
+		6EDA66E0A116BD1AEEAFCD3A33311B91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748CA01F4D2DADD9B23F2EBD20433596 /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
 		74B8AEC8CB912763B7515A835AA78E6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7529C37B5F208BF1F1978972DBF18B73 /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
+		7BC38A8D36C97ACFE8F06904C7D234A2 /* VideoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = ImageViewer/Source/VideoViewController.swift; sourceTree = "<group>"; };
+		825F251B406F90019C3143D6A8454A99 /* VideoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoView.swift; path = ImageViewer/Source/VideoView.swift; sourceTree = "<group>"; };
+		83320AF8E60917879244EF2B7D330129 /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = ImageViewer/Source/Extensions/CGPoint.swift; sourceTree = "<group>"; };
 		83362C6C6E15D37473C190BFBD16AC0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		835F26963E9EDC70C59BDB61A79556F7 /* Pods_PanoramaCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PanoramaCamera.framework; path = "Pods-PanoramaCamera.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838EC985768F562A64FF2036EB1B24F5 /* ImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		85C376E8F7CF32ABC13D81C0C42518F0 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = ImageViewer/Source/Extensions/UIViewController.swift; sourceTree = "<group>"; };
+		876848523C2B149F8CF066DBD4B70B1C /* GalleryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryViewController.swift; path = ImageViewer/Source/GalleryViewController.swift; sourceTree = "<group>"; };
+		88B7AAE16C23D5C823FC66FC6428F0FF /* ThumbnailCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThumbnailCell.swift; path = "ImageViewer/Source/Thumbnails Controller/ThumbnailCell.swift"; sourceTree = "<group>"; };
 		8AA943BC7D6BD0B8AD1570656551323B /* Pods-PanoramaCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PanoramaCamera.release.xcconfig"; sourceTree = "<group>"; };
+		8CDB8B3B858CFA926014A399FF365478 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC227809AF65EA6476FFEDFA3E0FA51 /* AVPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVPlayer.swift; path = ImageViewer/Source/Extensions/AVPlayer.swift; sourceTree = "<group>"; };
+		916B9235D240921ABBD875629D0F1694 /* LayoutEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutEnums.swift; path = ImageViewer/Source/LayoutEnums.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9674B107BBE26F463FE8580705D6BA68 /* ImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImageViewer.modulemap; sourceTree = "<group>"; };
+		9985737D836BF9913C386C56B7CFCD29 /* CAShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAShapeLayer.swift; path = ImageViewer/Source/Extensions/CAShapeLayer.swift; sourceTree = "<group>"; };
+		A09C7F198BB95F0740701595FA283A3A /* UIBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBezierPath.swift; path = ImageViewer/Source/Extensions/UIBezierPath.swift; sourceTree = "<group>"; };
+		A320A9B7FA31B12A17EF860670DE008E /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
+		A455351527FEB7992077F66E27AAE182 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = ImageViewer/Source/BlurView.swift; sourceTree = "<group>"; };
+		A78581270220DB945A2B77EB4CA7189D /* ImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ImageViewer/Source/ImageViewController.swift; sourceTree = "<group>"; };
 		AA7E6535D26A7EB3B637535CBBBB6AE5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		B91595068BE4D1EBDD3BD0FFF2463E5D /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
+		B9A9DC91E40C46A90E63FD171AABC63B /* ItemBaseController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemBaseController.swift; path = ImageViewer/Source/ItemBaseController.swift; sourceTree = "<group>"; };
+		BE0370D851BB7629A3F3F22D5858B696 /* GalleryPagingDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryPagingDatasource.swift; path = ImageViewer/Source/GalleryPagingDatasource.swift; sourceTree = "<group>"; };
+		C25B70D2589816793947A6ED86ABCDEF /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ImageViewer/Source/Extensions/UIView.swift; sourceTree = "<group>"; };
+		C5E88BB6C6F32BF87CEC9B5794ABFFF9 /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
+		CE179C47039CC23E48D914EA92EB5E7B /* ThumbnailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThumbnailsViewController.swift; path = "ImageViewer/Source/Thumbnails Controller/ThumbnailsViewController.swift"; sourceTree = "<group>"; };
 		CE549E1020134F2D9BCDC815E1AA0F78 /* Pods-PanoramaCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PanoramaCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		CFBA6D4ACF0870438C8F3116B970D363 /* ImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageViewer.xcconfig; sourceTree = "<group>"; };
+		D5AF05CF9A0AD9BFEDBB36B40B1942CB /* UIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplication.swift; path = ImageViewer/Source/Extensions/UIApplication.swift; sourceTree = "<group>"; };
 		E02C787CDCA3AFCACE35FB18052AD14D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		E174BAC17305D61C278FAEC85718DA7D /* Slider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Slider.swift; path = ImageViewer/Source/Slider.swift; sourceTree = "<group>"; };
 		E19D5E122FF5EF6BD7DFE2D02E458004 /* Pods-PanoramaCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PanoramaCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E7C5EE3A5BD286B5697BC967B780BD07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F52173E656F6FA8EE9ED9EC19D9A68AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6EFFE5749FF4E182630B7C51AB36216 /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKCamera.framework; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3F2045F3B15BC0DB66F2A45D1040E9 /* ImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageViewer-dummy.m"; sourceTree = "<group>"; };
+		ED6C82571BE5DD4559DF3FD096A27F0B /* ImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageViewer-prefix.pch"; sourceTree = "<group>"; };
+		EE5C511FEA4455C7C135371829242A9E /* ItemControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemControllerDelegate.swift; path = ImageViewer/Source/ItemControllerDelegate.swift; sourceTree = "<group>"; };
+		F7CF9B9C53F84F7C91CF3CE917F4320F /* UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = ImageViewer/Source/Extensions/UIImageView.swift; sourceTree = "<group>"; };
+		F80598EDD16AAA1C6897C9F10FAF1EC9 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = ImageViewer/Source/Extensions/UIButton.swift; sourceTree = "<group>"; };
+		F8EDD95C0B1D93C9C7E5948D2371BFAE /* GalleryItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryItem.swift; path = ImageViewer/Source/GalleryItem.swift; sourceTree = "<group>"; };
+		FCB0FE5FD56D91323BC103035B8B0B16 /* GalleryDisplacedViewsDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryDisplacedViewsDatasource.swift; path = ImageViewer/Source/GalleryDisplacedViewsDatasource.swift; sourceTree = "<group>"; };
+		FF4E891C363E998B86EFC728ADF34587 /* ImageFadeInHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFadeInHandler.swift; path = ImageViewer/Source/ImageFadeInHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1748C9DF7D62D1537401DA3EA705CD5B /* Frameworks */ = {
+		6A3A09D9FF28F659A79E33CFFAF36C2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E515C28845D217E03EAE0040293DFC2 /* Foundation.framework in Frameworks */,
+				9658966F37DB85BE31133517DEA7C2AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,24 +165,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0E24EA2105F498949891E1BDAC1FA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D30F0232BCB4CF2DE6F6CA3DF72664 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		015C9887DBEC828AC2CABFDAA2036056 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F6EFFE5749FF4E182630B7C51AB36216 /* DKCamera.framework */,
-				835F26963E9EDC70C59BDB61A79556F7 /* Pods_PanoramaCamera.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				457E36E5C8DD5360E1A3C7BEFBC01882 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		250A02889479922A82A6F7E3E97F7124 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				8DC227809AF65EA6476FFEDFA3E0FA51 /* AVPlayer.swift */,
+				A455351527FEB7992077F66E27AAE182 /* BlurView.swift */,
+				2DFF733C36CBC4C8F6370C6BC1524CFD /* Bool.swift */,
+				6B02A3469831D9365A6A5D691690A459 /* CALayer.swift */,
+				9985737D836BF9913C386C56B7CFCD29 /* CAShapeLayer.swift */,
+				83320AF8E60917879244EF2B7D330129 /* CGPoint.swift */,
+				1F6961B951605EC4634162DCE060BF26 /* CGRect.swift */,
+				0984F15FCFABEB3DF938559F25BC6F8B /* CGSize.swift */,
+				101226A961AE4FAF5689264F90C33828 /* GalleryConfiguration.swift */,
+				FCB0FE5FD56D91323BC103035B8B0B16 /* GalleryDisplacedViewsDatasource.swift */,
+				F8EDD95C0B1D93C9C7E5948D2371BFAE /* GalleryItem.swift */,
+				64B3CF13CC5F90720742CFF1478DC1BD /* GalleryItemsDatasource.swift */,
+				BE0370D851BB7629A3F3F22D5858B696 /* GalleryPagingDatasource.swift */,
+				29C0B3AD91BCEDD4BEB068C49E29709C /* GallerySwipeToDismissTransition.swift */,
+				876848523C2B149F8CF066DBD4B70B1C /* GalleryViewController.swift */,
+				FF4E891C363E998B86EFC728ADF34587 /* ImageFadeInHandler.swift */,
+				A78581270220DB945A2B77EB4CA7189D /* ImageViewController.swift */,
+				B9A9DC91E40C46A90E63FD171AABC63B /* ItemBaseController.swift */,
+				166F94B7D3A10983E6F410171A0BBBC2 /* ItemController.swift */,
+				EE5C511FEA4455C7C135371829242A9E /* ItemControllerDelegate.swift */,
+				916B9235D240921ABBD875629D0F1694 /* LayoutEnums.swift */,
+				E174BAC17305D61C278FAEC85718DA7D /* Slider.swift */,
+				88B7AAE16C23D5C823FC66FC6428F0FF /* ThumbnailCell.swift */,
+				CE179C47039CC23E48D914EA92EB5E7B /* ThumbnailsViewController.swift */,
+				D5AF05CF9A0AD9BFEDBB36B40B1942CB /* UIApplication.swift */,
+				A09C7F198BB95F0740701595FA283A3A /* UIBezierPath.swift */,
+				F80598EDD16AAA1C6897C9F10FAF1EC9 /* UIButton.swift */,
+				F7CF9B9C53F84F7C91CF3CE917F4320F /* UIImageView.swift */,
+				36D07BD385F1EC8C3B6F33C750C5E68D /* UISlider.swift */,
+				C25B70D2589816793947A6ED86ABCDEF /* UIView.swift */,
+				85C376E8F7CF32ABC13D81C0C42518F0 /* UIViewController.swift */,
+				580E3629A516FE68AB6E102C9397A91A /* UtilityFunctions.swift */,
+				2D1057AB096D750CC426A6E9419D9584 /* VideoScrubber.swift */,
+				825F251B406F90019C3143D6A8454A99 /* VideoView.swift */,
+				7BC38A8D36C97ACFE8F06904C7D234A2 /* VideoViewController.swift */,
+				98BA0FBEF9DDD1B6D085652A775A86FB /* Support Files */,
+			);
+			name = ImageViewer;
+			path = ImageViewer;
 			sourceTree = "<group>";
 		};
 		457E36E5C8DD5360E1A3C7BEFBC01882 /* iOS */ = {
@@ -109,23 +239,71 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		55E4DD2F56D3E504D5D5AE2EF3BB406D /* DKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				4DD547FC60E9AC12F56851B4663C05FE /* DKCamera.swift */,
+				770BC3994F52F05D576AEFB77CCD5463 /* Resources */,
+				A0CFD4B565166E3D292DF3DD007C2D0F /* Support Files */,
+			);
+			name = DKCamera;
+			path = DKCamera;
+			sourceTree = "<group>";
+		};
+		770BC3994F52F05D576AEFB77CCD5463 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4630ACB2CA6E7B546F0ED5E5B10E4079 /* DKCameraResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				BF6DC84BF9D842790701E5776E1E87D6 /* Pods */,
-				015C9887DBEC828AC2CABFDAA2036056 /* Products */,
+				9AA5384F40432C111E2E437610D50405 /* Pods */,
+				E5171AAF5C0BEFA442995BA4CC1DEE4C /* Products */,
 				F31D18ADA8D6BDA91020F02304C147F8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		92AB57B15CF74033C95691976AC24198 /* Resources */ = {
+		98BA0FBEF9DDD1B6D085652A775A86FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0380FF906B979D69616ADFEE91DA6287 /* DKCameraResource.bundle */,
+				9674B107BBE26F463FE8580705D6BA68 /* ImageViewer.modulemap */,
+				CFBA6D4ACF0870438C8F3116B970D363 /* ImageViewer.xcconfig */,
+				EC3F2045F3B15BC0DB66F2A45D1040E9 /* ImageViewer-dummy.m */,
+				ED6C82571BE5DD4559DF3FD096A27F0B /* ImageViewer-prefix.pch */,
+				838EC985768F562A64FF2036EB1B24F5 /* ImageViewer-umbrella.h */,
+				6EDA66E0A116BD1AEEAFCD3A33311B91 /* Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/ImageViewer";
+			sourceTree = "<group>";
+		};
+		9AA5384F40432C111E2E437610D50405 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E4DD2F56D3E504D5D5AE2EF3BB406D /* DKCamera */,
+				250A02889479922A82A6F7E3E97F7124 /* ImageViewer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0CFD4B565166E3D292DF3DD007C2D0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				461D3E19FDFF7AD97F4980B10A872912 /* DKCamera.modulemap */,
+				748CA01F4D2DADD9B23F2EBD20433596 /* DKCamera.xcconfig */,
+				C5E88BB6C6F32BF87CEC9B5794ABFFF9 /* DKCamera-dummy.m */,
+				6530A942B43DF4E404CC2272387E3E5C /* DKCamera-prefix.pch */,
+				A320A9B7FA31B12A17EF860670DE008E /* DKCamera-umbrella.h */,
+				8CDB8B3B858CFA926014A399FF365478 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DKCamera";
 			sourceTree = "<group>";
 		};
 		BEB6E83873415302CEA374CD169FE16A /* Pods-PanoramaCamera */ = {
@@ -146,37 +324,14 @@
 			path = "Target Support Files/Pods-PanoramaCamera";
 			sourceTree = "<group>";
 		};
-		BF6DC84BF9D842790701E5776E1E87D6 /* Pods */ = {
+		E5171AAF5C0BEFA442995BA4CC1DEE4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE626BE4F82EB557801CF35930ADB70A /* DKCamera */,
+				10FE454E31A1587FB0B06767BB804AC2 /* DKCamera.framework */,
+				627847A5D5E534A14E71129BF8A4CAC7 /* ImageViewer.framework */,
+				51E645EE38A86FBE98FDC7AE6FFC6557 /* Pods_PanoramaCamera.framework */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		CE626BE4F82EB557801CF35930ADB70A /* DKCamera */ = {
-			isa = PBXGroup;
-			children = (
-				6C1FC0A242FA2556FE2AFA3C6D061420 /* DKCamera.swift */,
-				92AB57B15CF74033C95691976AC24198 /* Resources */,
-				EE0E8406F45FEC3AEE3ED52A79FCC00C /* Support Files */,
-			);
-			name = DKCamera;
-			path = DKCamera;
-			sourceTree = "<group>";
-		};
-		EE0E8406F45FEC3AEE3ED52A79FCC00C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C02E24B2CEDE62F4177804B75B200B0 /* DKCamera.modulemap */,
-				4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */,
-				7529C37B5F208BF1F1978972DBF18B73 /* DKCamera-dummy.m */,
-				2BE211E7E59798F2125A178080AA1906 /* DKCamera-prefix.pch */,
-				B91595068BE4D1EBDD3BD0FFF2463E5D /* DKCamera-umbrella.h */,
-				F52173E656F6FA8EE9ED9EC19D9A68AB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DKCamera";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F31D18ADA8D6BDA91020F02304C147F8 /* Targets Support Files */ = {
@@ -190,19 +345,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A1FB507A7A6DED3DD5541652A58E384F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6E5C99E4D9832095E8F30340E47650 /* Pods-PanoramaCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB0BE1EFC58026617F015EE12EEC4FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C608BDB545E340AE814181CC59763E /* ImageViewer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C159A8FFBC20E64E8D1E831DE46B617C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				016D1DC3963BF2066027DDE2F1E0D12F /* DKCamera-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D275296C0D34428D17410788E68571F6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A952F53B5558BE5AB9825311D7057C6D /* Pods-PanoramaCamera-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,25 +387,43 @@
 			);
 			name = DKCamera;
 			productName = DKCamera;
-			productReference = F6EFFE5749FF4E182630B7C51AB36216 /* DKCamera.framework */;
+			productReference = 10FE454E31A1587FB0B06767BB804AC2 /* DKCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7FE71B1B7CF46E23FA52CD7C02FAB88A /* Pods-PanoramaCamera */ = {
+		B321F3A57D08F1D51B82D56CADFEFBDF /* ImageViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D27E94E9136A8D495629EA0C1675DD76 /* Build configuration list for PBXNativeTarget "Pods-PanoramaCamera" */;
+			buildConfigurationList = FCB6A1CF3D01460CC0B645612682F4C4 /* Build configuration list for PBXNativeTarget "ImageViewer" */;
 			buildPhases = (
-				CCB42D0F498572AD097DB792ED4E1DCC /* Sources */,
-				1748C9DF7D62D1537401DA3EA705CD5B /* Frameworks */,
-				D275296C0D34428D17410788E68571F6 /* Headers */,
+				1938B39CA38B382AEB4A8D08B58840B8 /* Sources */,
+				D0E24EA2105F498949891E1BDAC1FA6F /* Frameworks */,
+				AEB0BE1EFC58026617F015EE12EEC4FB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9350C073456F7F5B22B934FFEB3E5D37 /* PBXTargetDependency */,
+			);
+			name = ImageViewer;
+			productName = ImageViewer;
+			productReference = 627847A5D5E534A14E71129BF8A4CAC7 /* ImageViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1A45F46908E6ACA7167DD287967201D /* Pods-PanoramaCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434844CEBD7A665C8813B6603173A2DE /* Build configuration list for PBXNativeTarget "Pods-PanoramaCamera" */;
+			buildPhases = (
+				27B3A11DDB9753C938F0FDB86686B503 /* Sources */,
+				6A3A09D9FF28F659A79E33CFFAF36C2A /* Frameworks */,
+				A1FB507A7A6DED3DD5541652A58E384F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512DD83334FBEA6D5C425308476C6EF9 /* PBXTargetDependency */,
+				45088D45F007E61C0615F1410185830F /* PBXTargetDependency */,
 			);
 			name = "Pods-PanoramaCamera";
 			productName = "Pods-PanoramaCamera";
-			productReference = 835F26963E9EDC70C59BDB61A79556F7 /* Pods_PanoramaCamera.framework */;
+			productReference = 51E645EE38A86FBE98FDC7AE6FFC6557 /* Pods_PanoramaCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -262,12 +443,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 015C9887DBEC828AC2CABFDAA2036056 /* Products */;
+			productRefGroup = E5171AAF5C0BEFA442995BA4CC1DEE4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				714E315BB23E95FEA43B6E772702966E /* DKCamera */,
-				7FE71B1B7CF46E23FA52CD7C02FAB88A /* Pods-PanoramaCamera */,
+				B321F3A57D08F1D51B82D56CADFEFBDF /* ImageViewer */,
+				F1A45F46908E6ACA7167DD287967201D /* Pods-PanoramaCamera */,
 			);
 		};
 /* End PBXProject section */
@@ -284,6 +466,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1938B39CA38B382AEB4A8D08B58840B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345C02C9047B7C90E6C51212AB128BF7 /* AVPlayer.swift in Sources */,
+				124CB0ABCF238B79A42747E61E1E2557 /* BlurView.swift in Sources */,
+				C40B1C59082F0851B6A17CB0BBDC4F7C /* Bool.swift in Sources */,
+				9D0FFB439DCBC540E272ECF1B385BA9D /* CALayer.swift in Sources */,
+				5FEAC269DA6D03E1340EC71660D690F9 /* CAShapeLayer.swift in Sources */,
+				A3A3B93764C0C89A98CDA9B2AE69835A /* CGPoint.swift in Sources */,
+				88DCC2920F1323BD3D4F3F09272CC81A /* CGRect.swift in Sources */,
+				657ACDA469BDB0B809E7CB2EF1D8E051 /* CGSize.swift in Sources */,
+				0086FBD1BAF1B277488DA9C31A206986 /* GalleryConfiguration.swift in Sources */,
+				D71EE9D3C99BD3E677F85A0F0D3A67E2 /* GalleryDisplacedViewsDatasource.swift in Sources */,
+				8291294B989EE943B68E4B44BE546065 /* GalleryItem.swift in Sources */,
+				CBEE099F8D86DFAB6B27DC742420A7BE /* GalleryItemsDatasource.swift in Sources */,
+				81B22D31DA262FFC55D43ACDFF284EDF /* GalleryPagingDatasource.swift in Sources */,
+				5F5A95540353980BCCA15256BC43F9E7 /* GallerySwipeToDismissTransition.swift in Sources */,
+				86CCE8A84DFE63DF4A35242050F6547C /* GalleryViewController.swift in Sources */,
+				DFDF3EE3B53433B7CF0D16D8A33A4661 /* ImageFadeInHandler.swift in Sources */,
+				8F2A71D385434CC1F55FCBBC36DEE66D /* ImageViewController.swift in Sources */,
+				4AA64E984EA3FCB0A4D60796DF0EE746 /* ImageViewer-dummy.m in Sources */,
+				D44FA49215F77AA36C4E0158F5A012F6 /* ItemBaseController.swift in Sources */,
+				C9368751FB1E4E89FA4F4844B5C41C9B /* ItemController.swift in Sources */,
+				DEDE976189AF453FF25DF3A6C59F3F98 /* ItemControllerDelegate.swift in Sources */,
+				032F75E613C88377A55CA7083F1DD58F /* LayoutEnums.swift in Sources */,
+				ACC69199EFB476D7FCF927F7FFB33138 /* Slider.swift in Sources */,
+				500F18B33116DEA4420E939F687B936B /* ThumbnailCell.swift in Sources */,
+				B51206262AAD0F55ACB5B0B4FA3D4E2C /* ThumbnailsViewController.swift in Sources */,
+				DF3BBA579CE5D094073B401F4EF6F1D1 /* UIApplication.swift in Sources */,
+				AC8D18100DD88ABFEB3CD9258D1ADC23 /* UIBezierPath.swift in Sources */,
+				CD4A3FD6C9DF922E269E1321E0E94E19 /* UIButton.swift in Sources */,
+				A29E2776BE40F24B8BF50FC1D7C0CD71 /* UIImageView.swift in Sources */,
+				23B752C758CD40BDFA11CB10BF9B60C6 /* UISlider.swift in Sources */,
+				15ACA6A8CDEAA47F5F72F2036182AC11 /* UIView.swift in Sources */,
+				F4FD741619ACFA1FD812D7E3B4B6B205 /* UIViewController.swift in Sources */,
+				DF2D4BBDE41DC40087778F99DF961933 /* UtilityFunctions.swift in Sources */,
+				90AECDE9B998A05C27F2BB0CF2809206 /* VideoScrubber.swift in Sources */,
+				9CB4B36154E771665C0B780BA44A78B8 /* VideoView.swift in Sources */,
+				88853951EC5E1DF6F64CF5FA37B5D280 /* VideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B3A11DDB9753C938F0FDB86686B503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DABCF769B3432503404F625D826068 /* Pods-PanoramaCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3377CEA9209FBB2AFD9F94271944291F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,22 +526,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCB42D0F498572AD097DB792ED4E1DCC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57F4A8099AEB98A58E3B45142E9AACD1 /* Pods-PanoramaCamera-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9350C073456F7F5B22B934FFEB3E5D37 /* PBXTargetDependency */ = {
+		45088D45F007E61C0615F1410185830F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageViewer;
+			target = B321F3A57D08F1D51B82D56CADFEFBDF /* ImageViewer */;
+			targetProxy = 3D5B1524BDB308CCDF80A6E120644A54 /* PBXContainerItemProxy */;
+		};
+		512DD83334FBEA6D5C425308476C6EF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DKCamera;
 			target = 714E315BB23E95FEA43B6E772702966E /* DKCamera */;
-			targetProxy = 8B0D9DB1F633B960AE2E0D52478DC147 /* PBXContainerItemProxy */;
+			targetProxy = C1D5310413C2077679C2A5CB1C2A1C0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -359,7 +590,7 @@
 		};
 		0A5C8593BD8042570CEC9A14667847C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */;
+			baseConfigurationReference = 748CA01F4D2DADD9B23F2EBD20433596 /* DKCamera.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -389,6 +620,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		13F8B52DA9CBE16A5F6060D0A61CA4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA943BC7D6BD0B8AD1570656551323B /* Pods-PanoramaCamera.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PanoramaCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PanoramaCamera/Pods-PanoramaCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PanoramaCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -430,7 +696,40 @@
 			};
 			name = Release;
 		};
-		8C5BA6E81898435F257D69B25AB529D6 /* Debug */ = {
+		D8B7C54CDA840B7707CBCD34C35A4F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBA6D4ACF0870438C8F3116B970D363 /* ImageViewer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImageViewer/ImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageViewer/ImageViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DACAA1503FE5D0EDAA121DE6CE813177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE549E1020134F2D9BCDC815E1AA0F78 /* Pods-PanoramaCamera.debug.xcconfig */;
 			buildSettings = {
@@ -468,7 +767,7 @@
 		};
 		F1516AA2C1591190564B67E3C5002978 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BD80186E2C831553905696CDF84BA4B /* DKCamera.xcconfig */;
+			baseConfigurationReference = 748CA01F4D2DADD9B23F2EBD20433596 /* DKCamera.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -498,9 +797,9 @@
 			};
 			name = Release;
 		};
-		FD8B7BA2A25625EC6CE2BB899F1BF4E4 /* Release */ = {
+		F43C1ADB91BFD29A4DE24008F671D75E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AA943BC7D6BD0B8AD1570656551323B /* Pods-PanoramaCamera.release.xcconfig */;
+			baseConfigurationReference = CFBA6D4ACF0870438C8F3116B970D363 /* ImageViewer.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -513,20 +812,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PanoramaCamera/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageViewer/ImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageViewer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PanoramaCamera/Pods-PanoramaCamera.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ImageViewer/ImageViewer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PanoramaCamera;
+				PRODUCT_NAME = ImageViewer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -545,6 +841,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		434844CEBD7A665C8813B6603173A2DE /* Build configuration list for PBXNativeTarget "Pods-PanoramaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACAA1503FE5D0EDAA121DE6CE813177 /* Debug */,
+				13F8B52DA9CBE16A5F6060D0A61CA4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		84D4888AAC7F614A939B9019EAED2900 /* Build configuration list for PBXNativeTarget "DKCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -554,11 +859,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D27E94E9136A8D495629EA0C1675DD76 /* Build configuration list for PBXNativeTarget "Pods-PanoramaCamera" */ = {
+		FCB6A1CF3D01460CC0B645612682F4C4 /* Build configuration list for PBXNativeTarget "ImageViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C5BA6E81898435F257D69B25AB529D6 /* Debug */,
-				FD8B7BA2A25625EC6CE2BB899F1BF4E4 /* Release */,
+				D8B7C54CDA840B7707CBCD34C35A4F0D /* Debug */,
+				F43C1ADB91BFD29A4DE24008F671D75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

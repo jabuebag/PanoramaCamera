@@ -1,12 +1,15 @@
 PODS:
   - DKCamera (1.3.1)
+  - ImageViewer (4.0)
 
 DEPENDENCIES:
   - DKCamera
+  - ImageViewer
 
 SPEC CHECKSUMS:
   DKCamera: 14de406a2593a7822648ccda4f858d77332d5ccf
+  ImageViewer: 364abc0309c33dda86d08ca25b0243e5c67d8cd3
 
-PODFILE CHECKSUM: 4b89d28939cbc57f5f49459ee254c443d16ba4b8
+PODFILE CHECKSUM: b32f96efcf770394cbe42f666f52cd63be0e7970
 
 COCOAPODS: 1.2.0.beta.1

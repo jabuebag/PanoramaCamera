@@ -7,4 +7,5 @@ target 'PanoramaCamera' do
 
   # Pods for PanoramaCamera
   pod 'DKCamera'
+  pod 'ImageViewer'
 end

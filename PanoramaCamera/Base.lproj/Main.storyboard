@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yN6-tu-j9H">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yN6-tu-j9H">
                                 <rect key="frame" x="0.0" y="94" width="375" height="206"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3l-9Z-0Vn">
@@ -36,6 +36,16 @@
                                     <action selector="startCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UEZ-Pv-8DK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R10-vd-uC1">
+                                <rect key="frame" x="99" y="493" width="178" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="178" id="J1W-hE-yvN"/>
+                                    <constraint firstAttribute="height" constant="48" id="v87-YK-nyr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -45,9 +55,12 @@
                             <constraint firstItem="yN6-tu-j9H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WmZ-aJ-eP1"/>
                             <constraint firstItem="t3l-9Z-0Vn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b6u-bw-xlJ"/>
                             <constraint firstAttribute="trailing" secondItem="yN6-tu-j9H" secondAttribute="trailing" id="pbl-o2-ZxT"/>
+                            <constraint firstItem="R10-vd-uC1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ruY-cO-Suv"/>
+                            <constraint firstItem="R10-vd-uC1" firstAttribute="top" secondItem="t3l-9Z-0Vn" secondAttribute="bottom" constant="58" id="s9d-5K-I5v"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="angleLbl" destination="R10-vd-uC1" id="kEV-hY-ZfW"/>
                         <outlet property="showImage" destination="yN6-tu-j9H" id="7Ul-mn-Fzq"/>
                     </connections>
                 </viewController>
