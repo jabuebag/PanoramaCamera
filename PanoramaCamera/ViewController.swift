@@ -25,6 +25,11 @@ class ViewController: UIViewController, GalleryItemsDatasource, GalleryDisplaced
     var motionManager = CMMotionManager()
     
     var imageProcessUtil = ImageProcessUtil()
+    
+    let internalVector:Double = 1.0
+    var picNumber: Int = 0
+    var yawTemp : Double?
+    var rotatedAngle: Double = 0.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,21 +37,45 @@ class ViewController: UIViewController, GalleryItemsDatasource, GalleryDisplaced
         showImage.addGestureRecognizer(imageTapGesture)
         vectorMove = CGFloat(0.0)
         configureCamera()
-        motionManager.gyroUpdateInterval = 1
+        motionManager.deviceMotionUpdateInterval = 1/20
         self.motionManager.startDeviceMotionUpdates(to: OperationQueue.current!, withHandler: {motion,error in self.calculateRotationByGyro(motion: motion!)})
-        
     }
     
     func calculateRotationByGyro(motion:CMDeviceMotion){
-        var qx = motion.attitude.quaternion.x
-        var qy = motion.attitude.quaternion.y
-        var qz = motion.attitude.quaternion.z
-        var qw = motion.attitude.quaternion.w
-        var pitch = atan2(2*(qx*qw + qy*qz), 1 - 2*qx*qx - 2*qz*qz)
-        var roll = atan2(2*(qy*qw + qx*qz), 1 - 2*qy*qy - 2*qz*qz)
-        var yaw = asin(2*qx*qy + 2*qz*qw)
-        angleLbl.text = String(yaw*180/M_PI)
-        // print(motion.attitude.roll*180 / .pi)
+        let qx = motion.attitude.quaternion.x
+        let qy = motion.attitude.quaternion.y
+        let qz = motion.attitude.quaternion.z
+        let qw = motion.attitude.quaternion.w
+        // motion.attitude.
+        var pitch = atan2(2*(qx*qw + qy*qz), 1 - 2*qx*qx - 2*qz*qz) * 180 / M_PI
+        var roll = atan2(2*(qy*qw + qx*qz), 1 - 2*qy*qy - 2*qz*qz) * 180 / M_PI
+        let yaw = asin(2*qx*qy + 2*qz*qw) * 180 / M_PI
+        var rotateDirection = motion.rotationRate.y*180 / M_PI
+        if (rotatedAngle >= 360) {
+            self.motionManager.stopDeviceMotionUpdates()
+        }
+        if yawTemp == nil {
+            yawTemp = yaw
+            rotatedAngle += abs(yawTemp!)
+        }
+        if rotateDirection < 0 {
+            var oneTimeAngle = abs(yaw - yawTemp!)
+            rotatedAngle += oneTimeAngle
+            if oneTimeAngle >= internalVector {
+                picNumber += 1
+            }
+        }
+        else {
+            if rotateDirection > 30 {
+                self.motionManager.stopDeviceMotionUpdates()
+                print("Please restart")
+            } else {
+                print("please rotate to right")
+            }
+            
+        }
+        yawTemp = yaw
+        angleLbl.text = String(yaw)
         
     }
 
